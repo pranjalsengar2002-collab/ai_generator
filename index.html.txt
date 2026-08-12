@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Scene Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Scene Generator</h1>
+
+        <p class="subtitle">
+            Create amazing scenes for your AI videos
+        </p>
+
+        <div class="generator-box">
+
+            <label>Describe your scene</label>
+
+            <textarea
+                id="prompt"
+                placeholder="Example: A futuristic city at night with flying cars..."
+            ></textarea>
+
+            <label>Choose Style</label>
+
+            <select id="style">
+                <option value="cinematic">Cinematic</option>
+                <option value="anime">Anime</option>
+                <option value="realistic">Realistic</option>
+                <option value="3d">3D</option>
+            </select>
+
+            <button id="generateBtn">
+                Generate Scene
+            </button>
+
+        </div>
+
+        <div class="result">
+
+            <h2>Generated Scene</h2>
+
+            <div id="imageContainer">
+                <p>Your generated image will appear here</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
